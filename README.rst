@@ -17,3 +17,10 @@ tested recently.  To build for Fuerte from source, check out the
 .. _ROS: http://www.ros.org
 .. _Velodyne: http://www.ros.org/wiki/velodyne
 .. _`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
+
+
+--------------------------------------------  2018.2.6
+Calibration for velodyne HDL32E
+
+velodyne_msg,velodyne,velodyne_driver,velodyne_laserscan,velodyne_pointcloud from git;
+calilration_HDL32 initially created;

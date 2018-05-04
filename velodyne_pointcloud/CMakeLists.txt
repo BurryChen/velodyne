@@ -55,6 +55,7 @@ catkin_package(
 
 add_subdirectory(src/lib)
 add_subdirectory(src/conversions)
+add_subdirectory(src/ceres_calibration)
 
 install(DIRECTORY include/${PROJECT_NAME}/
         DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})

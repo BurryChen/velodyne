@@ -1,0 +1,19 @@
+----------------------配置及其启动---------------------2018.2.6
+1銆両nstall Driver
+
+$ sudo apt-get install ros-VERSION-velodyne
+2銆丆onnect to the LIDAR
+
+    Power the LIDAR via the included adapter
+    Connect the LIDAR to an Ethernet port on your computer.
+    Statically assign an IP to this port in the 192.168.3.x range. 
+
+$sudo ifconfig eth0 192.168.1.100
+
+$sudo route add 192.168.1.201 eth0
+
+3 View Data
+
+$roslaunch velodyne_pointcloud 32e_points.launch calibration:=/home/whu/slam_ws/velodyne/src/velodyne_pointcloud/params/32db.yaml
+
+$rosrun rviz rviz -f velodyne
